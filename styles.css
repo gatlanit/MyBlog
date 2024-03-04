@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Acumin-Variable-Concept';
+    src: url('fonts/Acumin-Variable-Concept.ttf') format('truetype');
+}
+
+body {
+    background-color: #1e1e2e;
+    color: #bac2de;
+    margin: 0;
+}
+
+.header {
+    background-color: #11111B;
+    color: #cdd6f4;
+    padding: 40px;
+    text-align: left;
+    font-family: 'Acumin-Variable-Concept', 'Arial', sans-serif;
+    font-weight: lighter;
+}
