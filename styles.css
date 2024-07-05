@@ -7,6 +7,8 @@ body {
     background-color: #1e1e2e;
     color: #bac2de;
     margin: 0;
+    text-align: center;
+    font-family: 'Acumin-Variable-Concept', 'Arial', sans-serif;
 }
 
 .header {
@@ -16,4 +18,40 @@ body {
     text-align: left;
     font-family: 'Acumin-Variable-Concept', 'Arial', sans-serif;
     font-weight: lighter;
+}
+
+/* Flex container to arrange items in a row */
+.container {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+}
+
+/* Style for the regular button */
+.regular-button {
+    font-size: 1em; /* Adjust size as needed */
+    padding: 0.5em 1em; /* Padding for the button */
+    margin-right: 1em; /* Space between the button and the text */
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the anchor element to look like h1 text */
+.h1-text {
+    font-size: 2em; /* Adjust to match your h1 size */
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent */
+    cursor: pointer; /* Change cursor to pointer */
+    margin-left: 1em; /* Space between clickable text elements */
+}
+
+/* Optional: Add some hover effects */
+.h1-text:hover {
+    color: #555; /* Change text color on hover */
+}
+
+.regular-button:hover {
+    background-color: #555; /* Change background color on hover */
 }
