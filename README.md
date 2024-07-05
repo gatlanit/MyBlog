@@ -1,2 +1,2 @@
 # MyBlog
-A repository storing the data for my blog.
+A repository storing the files for my blog.
